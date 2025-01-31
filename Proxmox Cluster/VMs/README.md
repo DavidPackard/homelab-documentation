@@ -1,3 +1,9 @@
+# Details
+## VMID
+ID Number for each virtual machine, assigned automatically upon creation.
+## VM Types
+**LXC** - Linux Container. Not fully virtualised, but allows easy segmentation for applications.
+**VM** - Fully virtual computer.
 # VM List
 
 | VMID    | Type    | Hostname          | LAN IP             | Description                                                                     |
@@ -30,7 +36,7 @@
 | 123     | LXC     | nextcloud         | 192.168.101.9      | Hosts Nextcloud, a Google Drive replacement, as well as a fileserver via docker |
 | 124     | LXC     | photohost         | 192.168.101.8      | Hosts SOMETHING as a photo album / portfolio                                    |
 | 125     | LXC     | dnd               | 192.168.101.12     | Runs stuff for PAG DND                                                          |
-| 126     | VM      | win-amp           | 192.168.101.22     |                                                                                 |
-| 127     | LXC     | gotify            | 192.168.101.13     |                                                                                 |
-| 128     | LXC     | watchyourlan      | 192.168.101.31     |                                                                                 |
-| 129     | LXC     | n8n               | 192.168.101.14     |                                                                                 |
+| 126     | VM      | win-amp           | 192.168.101.22     | Windows-Based AMP Compute Host                                                  |
+| 127     | LXC     | gotify            | 192.168.101.13     | Hosts an open source notification platform                                      |
+| 128     | LXC     | watchyourlan      | 192.168.101.31     | Local network scanner, detects new devices on the network                       |
+| 129     | LXC     | n8n               | 192.168.101.14     | Automation Platform                                                             |
