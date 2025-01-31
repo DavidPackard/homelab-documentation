@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proxmox Cluster/VMs/101 webhost/README.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index"
             }
           }
         ]
@@ -175,11 +175,11 @@
   },
   "active": "371afc5c4cccf0db",
   "lastOpenFiles": [
+    "Proxmox Cluster/VMs/101 webhost/README.md",
     "docs/index.md",
     "docs",
     "mkdocs.yml",
     "README.md",
-    "Proxmox Cluster/VMs/101 webhost/README.md",
     "Proxmox Cluster/VMs/README.md",
     "Proxmox Cluster/VMs/101 webhost/archivebox-docker-compose.yml",
     "Proxmox Cluster/VMs/101 webhost/New Text Document.txt",
